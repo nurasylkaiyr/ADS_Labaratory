@@ -1,3 +1,10 @@
+/*
+    @checkDigits() - method to check whether 's' is all consists of digits
+    @s - string
+    @return - returns 'true' if string is all consists of digits, 'false' otherwise
+    @Character.isDigit - checks if the first character of s is a digit
+    @isEmpty - checks if the input string s is empty
+ */
 package org.example;
 import java.util.Scanner;
 public class Problem8 {

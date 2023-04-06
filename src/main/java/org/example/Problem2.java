@@ -1,3 +1,10 @@
+/*
+    @findAvg() - method to find average value of array recursively
+    @arr - array of elements, where need to find average value
+    @n - size of array
+    @return - returns avg value of the recursive
+ */
+
 package org.example;
 import java.util.Scanner;
 public class Problem2 {

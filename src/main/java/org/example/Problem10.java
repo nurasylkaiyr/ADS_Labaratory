@@ -1,3 +1,9 @@
+/*
+    @GCD() - method to find GCD(a, b)
+    @a - integer value
+    @b - integer value
+    @return - returns GCD(a, b)
+*/
 package org.example;
 import java.util.Scanner;
 public class Problem10 {

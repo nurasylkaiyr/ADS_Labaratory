@@ -1,3 +1,10 @@
+/*
+    @reverse() - method to reverse order of given array
+    @arr - array of elements
+    @n - integer value
+    @return - returns given array in reverse order
+ */
+
 package org.example;
 import java.util.Scanner;
 public class Problem7 {

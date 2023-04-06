@@ -1,5 +1,9 @@
+/*
+    @checkPrime() - method to check if it's prime
+    @n - integer number
+    @return - returns 'true' if it's prime, 'false' otherwise
+ */
 package org.example;
-
 import java.util.Scanner;
 public class Problem3 {
     public static void main(String[] args){

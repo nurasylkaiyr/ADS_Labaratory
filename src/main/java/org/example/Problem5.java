@@ -1,3 +1,8 @@
+/*
+    @seqFibonacci - method to find n-th elements in Fibonacci sequence using recursion
+    @n - integer value
+    @return - returns n-th element in Fibonacci sequence
+ */
 package org.example;
 import java.util.Scanner;
 public class Problem5 {

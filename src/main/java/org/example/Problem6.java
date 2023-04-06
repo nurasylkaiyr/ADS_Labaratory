@@ -1,3 +1,9 @@
+/*
+    @pow() - method that find n degree of a
+    @a - integer value
+    @n - power value
+    @return - returns n degree of a
+ */
 package org.example;
 import java.util.Scanner;
 public class Problem6 {

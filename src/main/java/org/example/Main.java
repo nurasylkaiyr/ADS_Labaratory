@@ -1,3 +1,9 @@
+/*
+   @findMin() - method to find the minimum value in the array recursively
+   @arr - array of elements, where need to find min
+   @n - size of array
+   @return - returns min value of the recursive and the last element of array
+*/
 package org.example;
 import java.util.Scanner;
 public class Main {
@@ -11,6 +17,7 @@ public class Main {
         int min = findMin(n, arr);
         System.out.println(min);
     }
+
     public static int findMin(int n, int[] arr) {
         if(n==1)
             return arr[0];
