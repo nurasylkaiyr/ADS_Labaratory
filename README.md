@@ -4,6 +4,8 @@
 
 +  **Project Description**
   
++  **Tasks**
+  
 +  **Getting Started**
   
 +  **Usage**
@@ -12,6 +14,49 @@
 
 ## Project Description
 This repository contains the projects and assignments completed for the Algorithm and Data Structures Laboratory course. The projects are implemented in Java programming language.
+
+## Tasks
+<details>
+
+<summary>Function and Recursion</summary>
+  <details>
+  <summary>Minimum value of array</summary>
+  You are given a number "n" and an array of "n" elements, the function returns the minimum of them.
+  </details>
+  <details>
+  <summary>Average value of array</summary>
+  You are given a number "n" and an array of "n" elements, the function returns the average of them.
+  </details>
+  <details>
+  <summary>Prime or Composite</summary>
+  You are given the number "n", the function checks whether "n" is prime.
+  </details>
+  <details>
+  <summary>Factorial</summary>
+  You are given the number "n", write the function will find "n!" using recursion.
+  </details>
+  <details>
+  <summary>Fibonacci sequence</summary>
+  You are given a number “n”, the function for finding n-th elements in Fibonacci sequence using recursion.
+  </details>
+  <details>
+  <summary>"a" degree "n"</summary>
+  You are given numbers “a” and “n”, the function returns "a" degree "n".
+  </details>
+  <details>
+  <summary>Reverse array</summary>
+  You are given a number "n" and an array of "n" elements, the program returns the given array in reverse order using recursion.
+  </details>
+  <details>
+  <summary>Binomial coefficient</summary>
+  You are given numbers“n” and “k”,program finds $C_n^k$ (binomial coefficient) using formula:
+  $$C_n^k=C_{n-1}^{k-1}+C_{n-1}^k$$ $$C_n^0=C_n^n=1$$
+  </details>
+  <details>
+  <summary>GCD</summary>
+  You are given “a” and “b”, the function finds GCD(a, b) using recursion and Euclidean Algorithm
+  </details>
+  </details>
 
 ## Getting Started
 
