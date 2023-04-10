@@ -11,15 +11,17 @@ public class Problem9 {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         int k = scanner.nextInt();
-        System.out.println(binomial(n, k));
+        System.out.println(binomial(n, k)); // Calls the binomial function to calculate the binomial coefficient and prints the result
     }
     public static int binomial(int n, int k){
-        if (k == 0){
+        if (k == 0){ // if k is 0, return 1
             return 1;
         }
-        if (k == n){
+        if (k == n){ //  if k is equal to n, return 1
             return 1;
         }
+        // compute the binomial coefficient using the formula and call binomial recursively for smaller values
         return binomial(n-1, k-1)+binomial(n-1, k);
+
     }
 }

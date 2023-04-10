@@ -11,12 +11,12 @@ public class Problem10 {
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
         int b = scanner.nextInt();
-        System.out.println(GCD(a, b));
+        System.out.println(GCD(a, b)); // Output the greatest common divisor of a and b
     }
     public static int GCD(int a, int b){
-        if(b == 0){
+        if(b == 0){ // If b equals to zero, return a
             return a;
         }
-        return GCD(b, a%b);
+        return GCD(b, a%b); // Recursively call GCD with b and the remainder of a divided by b
     }
 }

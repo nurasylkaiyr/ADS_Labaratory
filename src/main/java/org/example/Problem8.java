@@ -10,7 +10,9 @@ import java.util.Scanner;
 public class Problem8 {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
-        String s = scanner.nextLine();
+        String s = scanner.nextLine(); // Read input string from the user
+
+        // Check if the input string contains only digits and print the result
         if (checkDigits(s)) {
             System.out.println("Yes");
         }
@@ -19,9 +21,10 @@ public class Problem8 {
         }
     }
     public static boolean checkDigits(String s) {
-        if (s.isEmpty()) {
+        if (s.isEmpty()) { // empty string is considered to contain only digits
             return true;
         }
+        // check if the first character is a digit and check the rest of the string
         if (Character.isDigit(s.charAt(0))) {
             return checkDigits(s.substring(1));
         }
